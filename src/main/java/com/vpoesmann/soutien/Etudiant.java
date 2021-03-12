@@ -19,6 +19,8 @@ public class Etudiant {
     private int age;
     private String classe;
     private List<Chien> chiens;
+    private Cochon cochon;
+    private Gorille gorille;
     
     public Etudiant(String nom, String prenom, int age, String classe) {
         this.nom = nom;
@@ -37,6 +39,22 @@ public class Etudiant {
     
     public void ajouterChien(Chien p_chien) {
         chiens.add(p_chien);
+    }
+    
+    public void setCochon(Cochon cochon) {
+        this.cochon = cochon;
+    }
+    
+    public Cochon getCochon() {
+        return cochon;
+    }
+    
+    public void setGorille(Gorille gorille) {
+        this.gorille = gorille;
+    }
+    
+    public Gorille getGorille() {
+        return gorille;
     }
     
     public void retirerChien(int numeroChien) {

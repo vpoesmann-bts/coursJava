@@ -18,6 +18,9 @@ public class main {
         Chien un = new Chien(40, 12, "Plouf", "Fox terrier");
         Chien deux = new Chien(40, 12, "Splash", "Yorkshire");
 
+        Cochon bertha = new Cochon("Bertha", 90, 15);
+        Gorille harambe = new Gorille("Kong", "Harambe", "Gorille", 10);
+        
         Etudiant jimmy = new Etudiant("DOUSSAIN", "Jimmy", 19, "BTS SIO1");
         List<Chien> chenil = new ArrayList<Chien>();
         chenil.add(un);
@@ -26,5 +29,8 @@ public class main {
         jimmy.ajouterChien(deux);
         jimmy.retirerChien(0);
         jimmy.sePresenter();
+        jimmy.setCochon(bertha);
+        jimmy.setGorille(harambe);
+        jimmy.getCochon().attaquer();
     }
 }
