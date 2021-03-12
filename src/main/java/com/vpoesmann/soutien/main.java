@@ -19,7 +19,7 @@ public class main {
         Chien deux = new Chien(40, 12, "Splash", "Yorkshire");
 
         Cochon bertha = new Cochon("Bertha", 90, 15);
-        Gorille harambe = new Gorille("Kong", "Harambe", "Gorille", 10);
+        Gorille harambe = new Gorille(190, 10, "Kong", "Harambe", "Gorille", "Bleu");
         
         Etudiant jimmy = new Etudiant("DOUSSAIN", "Jimmy", 19, "BTS SIO1");
         List<Chien> chenil = new ArrayList<Chien>();

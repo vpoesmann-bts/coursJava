@@ -9,6 +9,12 @@ package com.vpoesmann.soutien;
  *
  * @author sogeking
  */
-public class Gorille {
+public class Gorille extends Animal {
     
+    private String couleur;
+    
+    public Gorille(int taille, int age, String nom, String prenom, String espece, String couleur) {
+        super(taille, age, nom, prenom, espece);
+        this.couleur = couleur;
+    }
 }
